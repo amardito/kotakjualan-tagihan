@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 // const billschema = mongoose.Schema({});
 const billschema = mongoose.Schema({
-    idToko : {type : String},
+    namaToko : {type : String},
     idAnggota: {type: String},
     createdAt: {type: Date},
     item: Array,
