@@ -5,7 +5,7 @@ const bill = require('../model/bill');
 
 router.post('/', async(req, res, next) => {
     const bill = new Bill({
-        namaToko : req.body.idToko,
+        namaToko : req.body.namaToko,
         idAnggota : req.body.idAnggota,
         createdAt : new Date(),
         item : req.body.item,
